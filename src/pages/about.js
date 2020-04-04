@@ -3,7 +3,8 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 export default () => (
   <Layout>
-    <h1>Home</h1>
-    <Link to="/about/">About Me </Link>
+    <h1>About Me</h1>
+    <p>This is my personal website</p>
+    <Link to="/">&larr; back to home</Link>
   </Layout>
 );
